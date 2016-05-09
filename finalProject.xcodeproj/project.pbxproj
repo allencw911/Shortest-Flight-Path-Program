@@ -25,12 +25,6 @@
 /* Begin PBXFileReference section */
 		1E1948E31CDA3F930094AA77 /* finalProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = finalProject; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E1948E61CDA3F930094AA77 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		1E1948ED1CDA3FD90094AA77 /* airlinexml.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = airlinexml.h; sourceTree = "<group>"; };
-		1E1948EE1CDA3FD90094AA77 /* airportxml.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = airportxml.h; sourceTree = "<group>"; };
-		1E1948EF1CDA3FD90094AA77 /* dijkstra.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dijkstra.h; sourceTree = "<group>"; };
-		1E1948F01CDA3FD90094AA77 /* graph.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = graph.h; sourceTree = "<group>"; };
-		1E1948F11CDA3FD90094AA77 /* routexml.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = routexml.h; sourceTree = "<group>"; };
-		1E1948F21CDA3FD90094AA77 /* updatexml.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = updatexml.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,12 +58,6 @@
 			isa = PBXGroup;
 			children = (
 				1E1948E61CDA3F930094AA77 /* main.cpp */,
-				1E1948ED1CDA3FD90094AA77 /* airlinexml.h */,
-				1E1948EE1CDA3FD90094AA77 /* airportxml.h */,
-				1E1948EF1CDA3FD90094AA77 /* dijkstra.h */,
-				1E1948F01CDA3FD90094AA77 /* graph.h */,
-				1E1948F11CDA3FD90094AA77 /* routexml.h */,
-				1E1948F21CDA3FD90094AA77 /* updatexml.h */,
 			);
 			path = finalProject;
 			sourceTree = "<group>";

@@ -1,23 +1,15 @@
-#include <iostream>
-#include "airlinexml.h"
-#include "airportxml.h"
-#include "routexml.h"
-#include "updatexml.h"
-#include "graph.h"
-using namespace std;
+//
+//  main.cpp
+//  finalProject
+//
+//  Created by Allen Wang on 5/4/16.
+//  Copyright © 2016 Allen Wang. All rights reserved.
+//
 
-int main(){
-    string choice;
-    cout<<"Do you want to update the XML Files? (Y/N)"<<endl;
-    cin>>choice;
-    if (choice == "Y"){
-        airlinexml airlinexml;
-        routexml routexml;
-        airportxml airportxml;
-        updatexml update;
-    }
-    program program;
-    program.go();
-    
+#include <iostream>
+
+int main(int argc, const char * argv[]) {
+    // insert code here...
+    std::cout << "Hello, World!\n";
     return 0;
 }
