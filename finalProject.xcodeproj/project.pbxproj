@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1E1948E71CDA3F930094AA77 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1E1948E61CDA3F930094AA77 /* main.cpp */; };
+		1ED6FEE81CE00D9300E6F35B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1ED6FEE71CE00D9300E6F35B /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,13 @@
 
 /* Begin PBXFileReference section */
 		1E1948E31CDA3F930094AA77 /* finalProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = finalProject; sourceTree = BUILT_PRODUCTS_DIR; };
-		1E1948E61CDA3F930094AA77 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1ED6FEE31CE00D3600E6F35B /* airlinexml.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = airlinexml.h; sourceTree = "<group>"; };
+		1ED6FEE41CE00D4F00E6F35B /* airportxml.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = airportxml.h; sourceTree = "<group>"; };
+		1ED6FEE51CE00D6800E6F35B /* routexml.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = routexml.h; sourceTree = "<group>"; };
+		1ED6FEE61CE00D7D00E6F35B /* updatexml.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = updatexml.h; sourceTree = "<group>"; };
+		1ED6FEE71CE00D9300E6F35B /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1ED6FEE91CE00DC500E6F35B /* djkstra.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = djkstra.h; sourceTree = "<group>"; };
+		1ED6FEEA1CE00DD600E6F35B /* graph.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = graph.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +63,13 @@
 		1E1948E51CDA3F930094AA77 /* finalProject */ = {
 			isa = PBXGroup;
 			children = (
-				1E1948E61CDA3F930094AA77 /* main.cpp */,
+				1ED6FEE71CE00D9300E6F35B /* main.cpp */,
+				1ED6FEE91CE00DC500E6F35B /* djkstra.h */,
+				1ED6FEEA1CE00DD600E6F35B /* graph.h */,
+				1ED6FEE31CE00D3600E6F35B /* airlinexml.h */,
+				1ED6FEE41CE00D4F00E6F35B /* airportxml.h */,
+				1ED6FEE51CE00D6800E6F35B /* routexml.h */,
+				1ED6FEE61CE00D7D00E6F35B /* updatexml.h */,
 			);
 			path = finalProject;
 			sourceTree = "<group>";
@@ -118,7 +130,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E1948E71CDA3F930094AA77 /* main.cpp in Sources */,
+				1ED6FEE81CE00D9300E6F35B /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +251,7 @@
 				1E1948EC1CDA3F930094AA77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
